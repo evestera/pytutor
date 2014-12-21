@@ -1,0 +1,20 @@
+{
+  "name": "pytutor",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "brython": "https://github.com/brython-dev/brython/releases/download/3.0.1/Brython3.0.1-20141213-112128.zip",
+    "codemirror": "~4.8.0",
+    "hanson": "timjansen/hanson",
+    "jquery": "~2.1.3",
+    "marked": "~0.3.2",
+    "bootswatch-dist": "3.3.0-cerulean"
+  }
+}

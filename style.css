@@ -1,0 +1,43 @@
+#nav {
+	margin-top: 20px;
+	text-align: right;
+}
+
+#console {
+	border: 1px solid black;
+	font-family: monospace;
+	white-space: pre;
+	background: black;
+	color: white;
+	min-height: 300px;
+	max-height: 500px;
+	padding: 10px;
+	overflow: scroll;
+}
+
+.CodeMirror {
+	border: 1px solid black;
+}
+
+.CodeMirror-empty {
+	color: #ccc;
+}
+
+#editor-commands .btn {
+	margin-top: 5px;
+}
+
+code {
+	background: #eee;
+	color: #317eac;
+}
+
+body {
+	border-top: 15px solid #317eac;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 100px;
+	color: #aaa;
+}

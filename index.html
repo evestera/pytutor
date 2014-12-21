@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="no">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Python Intro</title>
+		<link rel="stylesheet" href="bower_components/bootswatch-dist/css/bootstrap.css">
+		<link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="assignment" class="col-sm-8">
+				<h2 id="assignment-title"></h2>
+				<div id="assignment-text"></div>
+			</div>
+
+			<div id="nav" class="col-sm-4">
+				<button type="button" class="btn btn-default btn-lg prev" aria-label="Previous">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Forrige
+				</button>
+				<button type="button" class="btn btn-default btn-lg next" aria-label="Next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Neste
+				</button>
+			</div>
+
+			<div class="col-sm-6 codestuff">
+				<p id="console"></p>
+			</div>
+
+			<div class="col-sm-6 codestuff">
+				<textarea id="editor" placeholder="Skriv kode her..."></textarea>
+				<div id="editor-commands">
+					<button type="button" class="btn btn-success play" aria-label="Play">
+						<span class="glyphicon glyphicon-play" aria-hidden="true"></span> Kjør kode
+					</button>
+					<button type="button" class="btn btn-info help" aria-label="Help">
+						<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Hjelp
+					</button>
+					<button type="button" class="btn btn-default reset" aria-label="Play">
+						<span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span> Nullstill kode
+					</button>
+				</div>
+			</div>
+
+			<div class="col-sm-12">
+				<p class="footer"><small><a href="https://github.com/evestera/pytutor/">Åpen kildekode</a> | Laget av <a href="http://vestera.as">Erik Vesteraas</a></small></p>
+			</div>
+		</div>
+
+		<script src="bower_components/codemirror/lib/codemirror.js"></script>
+		<script src="bower_components/codemirror/mode/python/python.js"></script>
+		<script src="bower_components/codemirror/addon/display/placeholder.js"></script>
+		<script src="bower_components/brython/brython.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/hanson/hanson.js"></script>
+		<script src="bower_components/marked/lib/marked.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

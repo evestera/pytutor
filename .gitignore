@@ -1,0 +1,4 @@
+.DS_Store
+
+# TODO: consider removing when finalized:
+bower_components/

@@ -1,0 +1,59 @@
+/*
+Assignment text is Markdown (GFM)
+
+Inline code:
+We wrap code \`like this\` when we write.
+
+Code block:
+~~~
+def foo():
+  print('bar')
+~~~
+*/
+[
+	{
+		title: 'Velkommen',
+		text: `
+Velkommen til denne greia. Ikke så mye her enda dessverre.
+
+Dette er egentlig bare en test av rene tekstsider, men trykk på neste så kan du skrive litt kode.
+`,
+	},
+	{
+		title: 'Hello World',
+		text: `
+Nå skal vi bare få litt tekst i terminalen.
+
+Skriv \`print("Hello world")\` og trykk Ctrl-R for å kjøre.`,
+		code: ``
+	},
+
+	{
+		title: 'Oppgave 2',
+		text: `
+Så må vi gjøre mer fancy greier.
+
+Bla bla bla.`,
+		code: ``
+	},
+
+	{
+		title: 'Oppgave 3',
+		text: `
+La oss prøve litt større kodeblokker:
+
+~~~
+def foo(n):
+  return n * n
+~~~
+
+Exciting stuff!
+`,
+		code: `
+def square(n):
+  return n * n
+
+print(square(4))
+`
+	},
+]
